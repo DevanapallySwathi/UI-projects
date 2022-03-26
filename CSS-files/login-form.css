@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: contents;
+}
+
+.loginpage{
+   width: 800px;
+   height: 500px;
+   display: flex;
+}
+.image-part{
+    width: 400px;
+    background-image: url(/assests/login-forn1.png);
+    background-repeat: no-repeat;
+}
+.login-part{
+    width: 400px;
+    background-color:#EEEEEE;
+    border: 30px solid #EEEEEE;
+    box-sizing: border-box;
+}
+.check{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.text2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+color: #2D3748;
+}
+.txt1{
+    font-size: 16px;
+
+}
+.txt-login{
+margin-bottom: 15px;
+font-weight: bold;
+font-size: 30px;
+margin-top: 10px;
+}
+.txt2{
+    font-size: 30px;
+    font-weight :700 ;
+    max-width: 11px 0px;
+}
+.txt-color{
+    color: #05abec;
+}
+input[type= text]{
+    width: 350px;
+    height: 50px;
+    border: 1px solid ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-width: 15px 0px;
+    margin: 10px 0px;
+    
+}
+input[placeholder]{
+    padding-left: 10px;
+}
+button[type= submit]{
+
+    width: 350px;
+    height: 50px;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-width: 15px 0px;
+}
+input[type=checkbox]{
+    margin-right: 6px;
+}
+button[id=login]{
+    background-color: green;
+    color: #EEEEEE;
+    margin: 10px 0px;
+}
+button[id=signin]
+
+{
+    background-color:black ;
+    display: flex;
+    color: #EEEEEE;
+    justify-content: center;
+    align-items: center;
+
+}
+.b-txt{
+    padding-left: 6px;
+}
+
+

@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #d3d3d3;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+td {
+    color: #808080;
+}
+
+.percentage {
+    border-radius: 20px;
+    width: 80%;
+    background-color: #d3d3d3;
+}
+
+#file{
+    color: red;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dimentions {
+    border-radius: 20px;
+}
+.t-size{
+    width: 60%;
+}
+.w3-container{
+    display: flex;
+    justify-content: center;
+}

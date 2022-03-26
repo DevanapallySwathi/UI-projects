@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cantainer{
+    position: relative;
+      height: 750px;
+      width: 800px;
+      padding: 45px  0px 10px 10px;
+      margin-left:auto;
+      margin-right: auto;
+  }
+  .reg_info{
+       padding: 30px;
+      height: 650px;
+      width: 650px;
+      margin-left: 55px;
+      /* display: flex; */
+     }
+  .col-25 {
+float: right;
+width: 25%;
+padding-right: 20px;
+margin-top: 6px;
+text-align: right;
+margin-bottom: 10px;
+
+}
+.gender{
+display: flex;
+flex-direction: row ;
+
+}
+
+.col-75 {
+float: left;
+width: 75%;
+margin-top: 6px;
+margin-bottom: 10px;
+display: flex;
+}
+
+.col-75 input[type=text] {
+width: 75%;
+height: 42px;
+border-radius: 4px;
+padding-left: 10px;
+border-color: #ccc;
+border-style: groove;
+box-shadow: none;
+}
+.col-75 textarea[id=subject]{
+width: 315px;
+}
+.col-75 textarea[placeholder]{
+    padding: 4px 3px;
+}
+
+.col-75  select[id=country]{
+width: 315px;
+height: 30px;
+
+}
+.row{
+  display: flex;
+ align-items: center;
+ /* background-color: gold; */
+}
+.bg-white{
+display:contents;
+  }
+  .check input[type=checkbox]{
+    margin-top: 11px;
+  height: 22px;
+  width: 18px;
+  margin-left: 6px;
+}
+.txt{
+border: 1px solid #ccc ;
+padding: 13px;
+border-radius: 4px;
+font-family: "roboto", sans-serif;
+}
+
+.check{
+   background-color: gray;
+  height: 42px;
+  width: 35px;
+  border-style: ridge;
+
+}
+button[type=submit]{
+    height: 42px;
+    background-color: green;
+}
+.m-25{
+    margin-left: 28%;
+}
